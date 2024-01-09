@@ -1,11 +1,12 @@
 import React from "react";
 import "./navbar.css";
+import logo2 from "./assets/logo2.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img className="logo" />
+      <img src={logo2} className="logo" />
       <div className="desktopmenu">
         <Link
           activeClass="active"

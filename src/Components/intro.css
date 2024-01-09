@@ -7,13 +7,13 @@
 }
 
 .bg{
-    border: 1px solid white;
-    top: -4rem;
+    top: 3rem;
     position: absolute;
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 95vh;
+    margin-right: 8rem;
 } 
 
 .intro-content{
