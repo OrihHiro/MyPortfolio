@@ -22,12 +22,25 @@
 .desktopmenulistitem{
     margin: 1rem;
     cursor: pointer;
-}
+    position: relative;
+    display: inside-block;
+} 
 
-.desktopmenulistitem:hover{
+.desktopmenulistitem::after{
+    content: '';
+    position: absolute;
     color: yellow;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    left: 0;
+    bottom: -0.5rem;
+    width: 0;
+    height: 3px;
+    background-color: yellow;
+    transition: width ease-out 0.4s;
+
+} 
+
+.desktopmenulistitem:hover::after {
+    width: 100%;
 }
 
 .desktopmenubtn{
@@ -42,8 +55,7 @@
     font-size: 0.8rem;
 }
 
-.active{
-    color: yellow;
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+.desktopmenubtn:hover{
+    background-color: rgb(159, 148, 148);
+    color: white;
 }

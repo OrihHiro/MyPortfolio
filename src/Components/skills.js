@@ -13,7 +13,7 @@ const Skills = () => {
         features and best practices.
       </span>
       <div className="skills-bar">
-        <div className="skillbar">
+        <div className="skillbar skillbarhover1">
           <img src={UXlogo} alt="skill" className="skillsbarimg" />
           <div className="skillsbartext">
             <h2>UI/UX Design</h2>
@@ -25,7 +25,7 @@ const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="skillbar">
+        <div className="skillbar skillbarhover2">
           <img src={UXlogo} alt="skill" className="skillsbarimg" />
           <div className="skillsbartext">
             <h2>React Framework</h2>
@@ -37,7 +37,7 @@ const Skills = () => {
             </p>
           </div>
         </div>
-        <div className="skillbar">
+        <div className="skillbar skillbarhover3">
           <img src={UXlogo} alt="skill" className="skillsbarimg" />
           <div className="skillsbartext">
             <h2>Web Design</h2>

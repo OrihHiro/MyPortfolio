@@ -12,9 +12,17 @@
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 95vh;
+    height: 80vh;
+    margin-top: 4rem;
     margin-right: 8rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
 } 
+
+/* why can't hover */
+/* .bg:hover{
+    border-radius: 40%;
+} */
 
 .intro-content{
     height: 100vh;
@@ -52,9 +60,15 @@
     border-radius: 5rem;
     font-weight: 400;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-@media screen and (max-weight: 840px){
+.btn:hover{
+    background-color: rgb(159, 148, 148);
+    color: white;
+}
+
+@media screen and (max-width: 840px){
     .bg{
         right: -10vw;
     }

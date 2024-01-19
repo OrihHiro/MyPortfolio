@@ -16,10 +16,6 @@ const Myportfolio = () => {
       <div className="portfolio-img">
         <img src={portfolio} alt="portfolio1" className="worksImg" />
         <img src={portfolio} alt="portfolio2" className="worksImg" />
-        <img src={portfolio} alt="portfolio3" className="worksImg" />
-        <img src={portfolio} alt="portfolio4" className="worksImg" />
-        <img src={portfolio} alt="portfolio5" className="worksImg" />
-        <img src={portfolio} alt="portfolio6" className="worksImg" />
       </div>
       <button className="btnPortfolio">See More</button>
     </section>

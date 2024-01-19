@@ -10,7 +10,7 @@
 }
 
 body{
-    background: #3d3d3d;
+    background: url('https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif') fixed;
     color: white;
     overflow: hidden;
     overflow-y: scroll;

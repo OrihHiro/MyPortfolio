@@ -37,9 +37,14 @@
 .worksImg{
     object-fit: cover;
     height: 20rem;
-    margin: 0.5rem;
+    margin: 1rem;
     border: none;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.worksImg:hover{
+    transform: scale(1.05);
 }
 
 .btnPortfolio{
@@ -51,6 +56,12 @@
     border-radius: 5rem;
     font-weight: 500;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.btnPortfolio:hover{
+    background-color: rgb(159, 148, 148);
+    color: white;
 }
 
 @media screen and (max-width: 585px){

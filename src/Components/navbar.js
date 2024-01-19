@@ -9,7 +9,6 @@ const Navbar = () => {
       <img src={logo2} className="logo" />
       <div className="desktopmenu">
         <Link
-          activeClass="active"
           to="intro"
           spy={true}
           smooth={true}
@@ -20,7 +19,6 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          activeClass="active"
           to="skills"
           spy={true}
           smooth={true}
@@ -31,7 +29,6 @@ const Navbar = () => {
           About
         </Link>
         <Link
-          activeClass="active"
           to="myportfolio"
           spy={true}
           smooth={true}
@@ -42,7 +39,6 @@ const Navbar = () => {
           Portfolio
         </Link>
         <Link
-          activeClass="active"
           to="myclient"
           spy={true}
           smooth={true}

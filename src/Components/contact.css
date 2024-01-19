@@ -55,4 +55,10 @@
     border-radius: 5rem;
     font-weight: 500;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: rgb(159, 148, 148);
+    color: white;
 }

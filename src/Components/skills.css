@@ -17,6 +17,7 @@
     margin-bottom: 1.5rem;
 }
 
+
 .skills-description{
     font-weight: 400;
     font-size: 1rem;
@@ -36,8 +37,16 @@
     margin: 1rem;
     padding: 1.5rem 2.0rem;
     border-radius: 0.5rem;
-    background: rgb(50, 50, 50)
+    background: rgb(50, 50, 50);
 }
+
+.skillbarhover1, .skillbarhover2, .skillbarhover3{
+    transition: transform 0.5s ease;
+}
+.skillbarhover1:hover, .skillbarhover2:hover, .skillbarhover3:hover{
+    transform: scale(1.1);
+}
+
 
 .skillsbarimg{
     object-fit: cover;
@@ -49,6 +58,10 @@
 .skillsbartext{
     font-size: 0.9rem;
     font-weight: 100;
+}
+
+.skillsbartext h2:hover{
+    color: yellow;
 }
 
 .skillsbartext p{
