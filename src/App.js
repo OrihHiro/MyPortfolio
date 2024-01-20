@@ -3,7 +3,7 @@ import Navbar from "./Components/navbar";
 import Intro from "./Components/intro";
 import Skills from "./Components/skills";
 import Myportfolio from "./Components/myportfolio";
-import Myclient from "./Components/clients";
+import Myresume from "./Components/Myresume";
 import Contact from "./Components/contact";
 import Footer from "./Components/footer";
 import "./App.css";
@@ -15,7 +15,7 @@ function App() {
       <Intro />
       <Skills />
       <Myportfolio />
-      <Myclient />
+      <Myresume />
       <Contact />
       <Footer />
     </div>

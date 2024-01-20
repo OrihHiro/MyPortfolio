@@ -1,7 +1,8 @@
 import React from "react";
 import "./intro.css";
-import { Link } from "react-scroll";
-import me2 from "./assets/me2.png";
+import IMG_9416 from "./assets/IMG_9416.JPG";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const Intro = () => {
   return (
@@ -11,12 +12,29 @@ const Intro = () => {
         <span className="introtext">
           I'm <span className="introname">How Yee</span>
           <br />
-          Developer Engineer
+          Front-end Engineer
         </span>
-        <p className="intropara">I'm a New Web Developer</p>
-        <button className="btn">Hire Me</button>
+        <p className="intropara">Ex-Business Development at PETRONAS & Setel</p>
+        <button
+          onClick={() =>
+            document
+              .getElementById("contact-page")
+              .scrollIntoView({ behavior: "smooth" })
+          }
+          className="btn"
+        >
+          Hire Me
+        </button>
+        <div className="intro-icons">
+          <a href="">
+            <FaGithub className="intro-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/how-yee-yap-5694571a9/">
+            <FaLinkedin className="intro-icon" />
+          </a>
+        </div>
       </div>
-      <img src={me2} alt="Profile" className="bg" />
+      <img src={IMG_9416} alt="Profile" className="bg" />
     </section>
   );
 };

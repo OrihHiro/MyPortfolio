@@ -49,9 +49,9 @@
 
 
 .skillsbarimg{
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
+    object-fit:contain;
+    height: 4rem;
+    width: 4rem;
     margin-right: 1rem;
 }
 

@@ -1,6 +1,8 @@
 import React from "react";
 import "./skills.css";
-import UXlogo from "./assets/UXlogo.png";
+import react from "./assets/react.png";
+import js from "./assets/js.png";
+import htmlcss2 from "./assets/htmlcss2.png";
 
 const Skills = () => {
   return (
@@ -14,9 +16,9 @@ const Skills = () => {
       </span>
       <div className="skills-bar">
         <div className="skillbar skillbarhover1">
-          <img src={UXlogo} alt="skill" className="skillsbarimg" />
+          <img src={htmlcss2} alt="skill" className="skillsbarimg htmlcss" />
           <div className="skillsbartext">
-            <h2>UI/UX Design</h2>
+            <h2>HTML & CSS</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -26,9 +28,9 @@ const Skills = () => {
           </div>
         </div>
         <div className="skillbar skillbarhover2">
-          <img src={UXlogo} alt="skill" className="skillsbarimg" />
+          <img src={js} alt="skill" className="skillsbarimg" />
           <div className="skillsbartext">
-            <h2>React Framework</h2>
+            <h2>Javascript</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -38,9 +40,9 @@ const Skills = () => {
           </div>
         </div>
         <div className="skillbar skillbarhover3">
-          <img src={UXlogo} alt="skill" className="skillsbarimg" />
+          <img src={react} alt="skill" className="skillsbarimg" />
           <div className="skillsbartext">
-            <h2>Web Design</h2>
+            <h2>React Framework</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

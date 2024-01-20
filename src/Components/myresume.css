@@ -1,0 +1,53 @@
+#myresume{
+    min-height: calc(100vh - 8rem);
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.resume-title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.resume-descr{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.resume-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+    margin-top: 2rem;
+}
+
+.resume-img{
+    object-fit: cover;
+    height: 22rem;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.resume-img:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 585px){
+    .client-img{
+        height: 20vw;
+    }
+}

@@ -39,14 +39,14 @@ const Navbar = () => {
           Portfolio
         </Link>
         <Link
-          to="myclient"
+          to="myresume"
           spy={true}
           smooth={true}
           offset={-67}
           duration={500}
           className="desktopmenulistitem"
         >
-          Clients
+          Resume
         </Link>
       </div>
       <button
