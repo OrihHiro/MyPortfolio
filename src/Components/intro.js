@@ -14,7 +14,7 @@ const Intro = () => {
           <br />
           Front-end Engineer
         </span>
-        <p className="intropara">Ex-Business Development at PETRONAS & Setel</p>
+        <p className="intropara">Ex-Management Trainee at PETRONAS & Setel</p>
         <button
           onClick={() =>
             document
