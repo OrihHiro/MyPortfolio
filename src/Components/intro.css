@@ -20,11 +20,6 @@
     border-radius: 50%;
 } 
 
-/* why can't hover */
-/* .bg:hover{
-    border-radius: 40%;
-} */
-
 .intro-icons{
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -85,12 +80,47 @@
     color: white;
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 1024px){
     .bg{
-        right: -10vw;
+        top: 3rem;
+        height: 60vh;
+        width: 60vh;
+        margin-right: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 720px){
+    .bg{
+        top: -1rem;
+        left: 25vw;
+        height: 50vh;
+        width: 50vh;
     }
     .intro-content{
-        font-size: 10vw;
+        font-size: 8vw;
+        margin-top: 8rem;
+        margin-left: 2rem;
+    }
+    .hello{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .bg{
+        right: 0;
+        left: 20vw;
+        margin-left: 0;
+        top: 0rem;
+        height: 40vh;
+        width: 40vh;
+    }
+    .intro-content{
+        font-size: 8vw;
+        margin-top: 10rem;
+        margin-left: 0;
     }
     .hello{
         font-size: 4vw;

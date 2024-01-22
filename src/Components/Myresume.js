@@ -8,9 +8,9 @@ const Myresume = () => {
     <section id="myresume">
       <span className="resume-title">My Resume</span>
       <span className="resume-descr">
-        Dedicated to understanding and meeting the unique needs of each client,
-        I provide tailored solutions with a focus on fostering long-term
-        partnerships and delivering exceptional bla bla bla results.
+        Please feel free to download a copy of my resume to explore a more
+        comprehensive overview of my qualifications, skills, and professional
+        experience.
       </span>
       <div className="resume-imgs">
         <a href={require("./Resume.pdf")} download="Resume.pdf">
