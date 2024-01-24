@@ -23,7 +23,7 @@ const Intro = () => {
           }
           className="btn"
         >
-          Hire Me
+          Hire MeEEEEEEE
         </button>
         <div className="intro-icons">
           <a href="">
