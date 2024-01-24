@@ -11,7 +11,12 @@ const Myportfolio = () => {
         appealing and functional websites.
       </span>
       <div className="portfolio-img">
-        <img src={portfolio} alt="portfolio1" className="worksImg" />
+        <img
+          href="hy-ecommerce-plat.netlify.app"
+          src={portfolio}
+          alt="portfolio1"
+          className="worksImg"
+        />
         <img src={portfolio} alt="portfolio2" className="worksImg" />
       </div>
       <button className="btnPortfolio">See More</button>
