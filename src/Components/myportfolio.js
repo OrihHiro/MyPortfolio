@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./myportfolio.css";
-import portfolio from "./assets/portfolio.jpg";
+import portfolio1 from "./assets/portfolio1.png";
+import portfolio2 from "./assets/portfolio2.png";
 
 const Myportfolio = () => {
   return (
@@ -11,13 +13,21 @@ const Myportfolio = () => {
         appealing and functional websites.
       </span>
       <div className="portfolio-img">
-        <img
-          href="hy-ecommerce-plat.netlify.app"
-          src={portfolio}
-          alt="portfolio1"
-          className="worksImg"
-        />
-        <img src={portfolio} alt="portfolio2" className="worksImg" />
+        <Link to="intro" spy={true} smooth={true} offset={-100}>
+          <img src={portfolio1} alt="portfolio1" className="worksImg" />
+          <div className="language">
+            <p>React JS</p>
+            <p>Vanilla CSS</p>
+          </div>
+        </Link>
+        <a href="https://hy-ecommerce-plat.netlify.app/">
+          <img src={portfolio2} alt="portfolio2" className="worksImg" />
+          <div className="language">
+            <p>React JS</p>
+            <p>React-Router</p>
+            <p>Tailwind CSS</p>
+          </div>
+        </a>
       </div>
       <button className="btnPortfolio">See More</button>
     </section>

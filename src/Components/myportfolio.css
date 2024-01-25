@@ -30,8 +30,24 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 70rem;
     margin-top: 2rem;
+}
+
+.language{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language p{
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(230, 214, 214, 0.3);
+    border-radius: 1rem;
 }
 
 .worksImg{
